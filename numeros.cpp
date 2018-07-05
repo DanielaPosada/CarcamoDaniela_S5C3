@@ -13,12 +13,12 @@ int main(){
 
     for(i=0;i<1000;i++)
     {
-          while(contador<=25){
+          while(contador<25){
 	  numeroal = rand() % 100 + 1;
           resp=numerosparmenor89(numeroal);
           if(resp!=-1)
             {
-    	      cout << i << " " << numeroal << endl;  	
+    	      cout << contador << " " << numeroal << endl;  	
 	      contador++;      		 	 
             }
 	}
